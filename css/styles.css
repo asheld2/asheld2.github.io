@@ -1,27 +1,46 @@
-
 body {
   background-color: #e3dcf2;
   padding: 0px;
   margin: 0px;
 }
 
+@keyframes size-change {
+  0% {
+    font-size: 24px;
+  }
+  50% {
+    font-size: 50px;
+  }
+  100% {
+    font-size: 24px;
+  }
+}
+
+
+@font-face {
+    font-family: 'kingthings_italiqueregular';
+    src: url('kingthings_italique-webfont.woff2') format('woff2'),
+         url('kingthings_italique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 h1 {
-  font-family: sans-serif;
+  font-family: ;kingthings_italiqueregular
+  color: red;
+  animation-name: size-change;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
 
 p {
-  colord: blue
-}
-.mail {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh
+  color: blue
 }
 
 .mail {
-  position: absolute;
-  top: 50%
-  left: 50%
-  transform: translate(-123px, -38px)
+  display: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh
 }
