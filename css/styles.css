@@ -136,8 +136,9 @@ p:hover {
 }
 
 .floatie {
-  width: 20px;
-  height:20px;
+  width: 30px;
+  height:30px;
   float: right;
-  padding-right: 100px;
+  padding-top: 250px;
+  padding-right: 60px;
 }
