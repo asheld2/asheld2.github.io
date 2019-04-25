@@ -7,15 +7,6 @@ body {
   margin: 0px;
 }
 
-img {
-  width: 420px;
-  border: 20px solid #de6be5;
-  border-radius: 220px;
-  animation-name: colorshift;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-}
-
 @-webkit-keyframes bounce {
     0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
     40% {-webkit-transform: translateY(-10px);}
@@ -95,8 +86,30 @@ p:hover {
   font-weight: 10;
   font-size: .7em;
   color: black;
-  height: 200vh;
   margin: auto;
+}
+
+.leftside2 {
+  font-family: 'kingthings_calligraphica_liLt';
+  font-size: .5em;
+  color: rgb(0,0,0);
+  width: 90px;
+  height: 200px;
+  border-style: ridge;
+  border-radius: : 1px;
+  border-color: rgb (255, 255, 255);
+  margin-left: 50px;
+
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 6.25%;
+  padding: 20px;
+  width: 30px;
 }
 
 #leftsidebar {
@@ -115,7 +128,6 @@ p:hover {
   height: 400px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 90px;
   border: 2px solid #0000ff;
   background: #ffff;
   opacity: 0.3;
@@ -123,10 +135,9 @@ p:hover {
 
 }
 
-#rcorners2 {
-  border-radius: 25px;
-  border: 2px solid #73AD21;
-  padding: 20px;
-  width: 60px;
-  height: 300px;
+.floatie {
+  width: 20px;
+  height:20px;
+  float: right;
+  padding-right: 100px;
 }
