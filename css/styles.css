@@ -53,6 +53,8 @@ h1 {
   font-size: 4.8em;
   position: relative;
   text-align: center;
+  margin: 0px;
+  padding: 20px;
 }
 
 h1:hover {
@@ -89,24 +91,23 @@ p:hover {
 }
 
 .leftside {
-  font-family: 'kingthings_italiqueregular';
-  font-weight: 20;
-  font-size: .5em;
-  font-style: italic;
+  font-family: 'kingthings_calligraphica_liLt';
+  font-weight: 10;
+  font-size: .7em;
   color: black;
   height: 200vh;
   margin: auto;
 }
 
-#sidebar {
-  width:40px;
+#leftsidebar {
+  width:70px;
   height:500px;
   float: left;
   margin-right: auto;
   margin-left: 60px;
   margin-top: 90px;
-  box-shadow: 5px 10px rgba(0, 0, 0, 0.3);
   background: rgba(12, 250, 19, 0.1);
+  border: 1px solid #0000ff;
 }
 
 #wrapper {
@@ -116,7 +117,8 @@ p:hover {
   margin-left: auto;
   margin-top: 90px;
   border: 2px solid #0000ff;
-  background: rgba(255,255,255,0.3);
+  background: #ffff;
+  opacity: 0.3;
   overflow: scroll;
 
 }
